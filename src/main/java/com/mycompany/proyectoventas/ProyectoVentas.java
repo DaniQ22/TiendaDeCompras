@@ -13,6 +13,7 @@ package com.mycompany.proyectoventas;
 public class ProyectoVentas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        RegistroCompras regis = new RegistroCompras();
+        regis.setVisible(true);
     }
 }
